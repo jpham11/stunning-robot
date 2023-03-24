@@ -7,3 +7,5 @@ The SRGAN model is trained on pairs of low-resolution and high-resolution images
 In this repository, I'll provide an implementation of the SRGAN model using TensorFlow and Keras. The implementation includes the generator and discriminator models, as well as the training loop to train the models on your own data. This script was done through Google Colab.
 
 # SRGAN Model
+Starting off, a dataset will be established and the resolution will be compressed to 32x32. So first mount your Google Drive with the code shown below.
+![Alt Text](/jpham11/Images_SRGAN/Mount.png)
