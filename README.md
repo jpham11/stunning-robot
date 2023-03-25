@@ -60,3 +60,7 @@ The files were then output and downloaded to train a binary classifier and teste
 # Model A and B
 One model was trained with the original images while the other was trained with the SRGAN generated images and the results are shown below.
 
+![ConfusionMatrix1](https://github.com/jpham11/stunning-robot/blob/main/Images_SRGAN/ConfusionMatrix1.PNG)
+![ConfusionMatrix2](https://github.com/jpham11/stunning-robot/blob/main/Images_SRGAN/ConfusionMatrix2.PNG)
+![ModelLA](https://github.com/jpham11/stunning-robot/blob/main/Images_SRGAN/ModelLA.PNG)
+![ModelLB](https://github.com/jpham11/stunning-robot/blob/main/Images_SRGAN/ModelLB.PNG)
