@@ -33,3 +33,24 @@ This section of code defines the generator and discriminator models that are use
 ![Gen_Disc](https://github.com/jpham11/stunning-robot/blob/main/Images_SRGAN/Gen_Disc.PNG)
 ![Layers](https://github.com/jpham11/stunning-robot/blob/main/Images_SRGAN/Layers.PNG)
 
+This script is part of the implementation of the SRGAN. The training parameters and the models are defined, and the optimization process is set up. The training parameters are defined such as the number of epochs, and batch size. The generator and discriminator were built then compiled and the model was created, which after it was compiled.
+
+![Compile](https://github.com/jpham11/stunning-robot/blob/main/Images_SRGAN/CompileSRGAN.PNG)
+
+This part is only if you saved the epochs of your model and you would like to load it again.
+
+![Load](https://github.com/jpham11/stunning-robot/blob/main/Images_SRGAN/LoadingEpochs.PNG)
+
+The next part is the training loop. Basically this trains the discriminator, generator and prints the progress. Then every 5 epochs it'll save the .h5 files. Some epochs are displayed below during training.
+
+![Train](https://github.com/jpham11/stunning-robot/blob/main/Images_SRGAN/TrainingLoop.PNG)
+![Epochs](https://github.com/jpham11/stunning-robot/blob/main/Images_SRGAN/Epochs.PNG)
+
+Next the images that were produced by the SRGAN as well as the original high and low resolution images. As you can see the results were not the best, and I tried to greyscale it to maybe get rid of some noise. But it didn't go very well.
+
+![RGB](https://github.com/jpham11/stunning-robot/blob/main/Images_SRGAN/DisplayRGB.PNG)
+![RGB](https://github.com/jpham11/stunning-robot/blob/main/Images_SRGAN/Display1.PNG)
+![Grey](https://github.com/jpham11/stunning-robot/blob/main/Images_SRGAN/DisplayGrey.PNG)
+![Grey](https://github.com/jpham11/stunning-robot/blob/main/Images_SRGAN/Display2.PNG)
+
+
