@@ -53,4 +53,10 @@ Next the images that were produced by the SRGAN as well as the original high and
 ![Grey](https://github.com/jpham11/stunning-robot/blob/main/Images_SRGAN/DisplayGrey.PNG)
 ![Grey](https://github.com/jpham11/stunning-robot/blob/main/Images_SRGAN/Display2.PNG)
 
+The files were then output and downloaded to train a binary classifier and tested.
+
+![Output](https://github.com/jpham11/stunning-robot/blob/main/Images_SRGAN/OutputSRGAN.PNG)
+
+# Model A and B
+One model was trained with the original images while the other was trained with the SRGAN generated images and the results are shown below.
 
